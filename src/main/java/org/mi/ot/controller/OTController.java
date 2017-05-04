@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/ot")
 public class OTController {
 	@RequestMapping(value = "/submit",consumes = "application/json", method = RequestMethod.POST)
 	@ResponseBody
