@@ -3,9 +3,7 @@ package org.mi.ot.vo;
 import java.io.Serializable;
 
 public class OTResponse implements Serializable {
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 4431394762410429136L;
 
 	private Integer code;
